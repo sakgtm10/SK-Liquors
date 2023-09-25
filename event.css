@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.event {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.event-card {
+    background-color: black;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff3333;
+}
